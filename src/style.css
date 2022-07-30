@@ -1,0 +1,16 @@
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+.units {
+  font-size: 35px;
+}
+.sideColumn {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
