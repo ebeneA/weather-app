@@ -40,8 +40,8 @@
             <input type="submit" class="btn btn-primary w-100" value="Search">
           </div>
         </div>
-          </form>
-        <div class="WeatherInfo">
+      </form>
+      <div class="weatherInfo">
           <div class="row">
             <div class="col-6">
               <h1 id="city">Chicago, Illinois</h1>
@@ -51,28 +51,24 @@
           <li id="description">
           </li>
         </ul>
-      </form>
+       </div> 
       <span class = "temperature" id="temperature"></span>
-      <span class ="units">°C</span>
-      <div class="sideColumn">
-        <ul>
-          <li>
-            Humidity: <span id="humidity"></span>%
-          </li>
-          <li>
-            Wind: <span id="wind"></span>km/h
-          </li>
-        </ul>
-        </div>
-        </div>
-        </div>
-      <span class = "temperature" id="temperature"></span>
-      <span class ="units">°C</span>
-      <div class="col-6">
-        <div class="temperature-container d-flex justify-content-end"></div>
-      </div>
-      <div class="sideColumn">
-      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="clearfix weather-temperature">
+              <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  12°C | °F
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
       <hr />
       <div class="WeatherForecast row">
       <p>Next 5 days</p>
@@ -111,7 +107,6 @@
           <br />
           HI | LOW
         </div>
-      </div>
       </div>
     </div>
     </div>
